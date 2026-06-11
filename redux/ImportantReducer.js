@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const HOST = process.env.HOST || "http://192.168.1.37:3003";
+const HOST = process.env.EXPO_PUBLIC_HOST || "http://192.168.1.37:3003";
 
 const initialState = {
   importantQuestion: {

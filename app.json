@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "NCKH",
-    "slug": "NCKH",
-    "version": "1.0.0",
+    "name": "DriverLicense",
+    "slug": "DriverLicense",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/logoApp.png",
     "userInterfaceStyle": "light",
@@ -11,15 +11,13 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logoApp.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.anonymous.NCKH"
@@ -32,8 +30,6 @@
         "projectId": "7e5b1d3c-79be-42fa-a5f4-b5227f2fc8d3"
       }
     },
-    "plugins": [
-      "expo-font"
-    ]
+    "plugins": ["expo-font"]
   }
 }

@@ -383,7 +383,7 @@ const Exam = ({ navigation }) => {
             dispatch(upCountExam({ target: "CountEX" }));
           }}
         >
-          <Ionicons name="plus" size={25} color="#FFFF" />
+          <Ionicons name="add" size={25} color="#FFFF" />
         </TouchableOpacity>
       </View>
     </SafeAreaProvider>
