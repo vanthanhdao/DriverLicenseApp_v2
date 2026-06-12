@@ -42,6 +42,7 @@ export default function WelcomeScreen() {
       : dispatch(fetchB1QuestionData());
     dispatch(fetchTrafficSignData());
     dispatch(fetchVideoData());
+    dispatch(setType(selected));
     navigation.navigate("Main_App");
   };
 

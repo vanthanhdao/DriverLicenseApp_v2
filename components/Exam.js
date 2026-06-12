@@ -412,7 +412,7 @@ const styles = StyleSheet.create({
     alignSelf: "center",
     borderRadius: 8,
     marginLeft: "40%",
-    right: "20%",
+    // right: "20%",
     width: 60,
     height: 25,
   },
@@ -421,7 +421,7 @@ const styles = StyleSheet.create({
     alignSelf: "center",
     borderRadius: 8,
     marginLeft: "50%",
-    right: "20%",
+    // right: "20%",
     width: 55,
     height: 25,
   },
@@ -441,13 +441,13 @@ const styles = StyleSheet.create({
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
-    left: "30%",
+    left: "20%",
   },
   ViewPercent1: {
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
-    left: "70%",
+    left: "20%",
   },
 });
 
