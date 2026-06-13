@@ -15,6 +15,7 @@ import {
   fetchB1QuestionData,
   fetchTrafficSignData,
   fetchVideoData,
+  setType,
 } from "../redux/QuestionsReducer";
 import NotBackHandle from "../components/NotBackHandle";
 
